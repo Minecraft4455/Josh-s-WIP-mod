@@ -37,7 +37,7 @@ public class BlockHandler {
 	public static void init(){
 		
 		JustinaiteOre = new BlockJustinaiteOre(config.OreJustinaiteID).setUnlocalizedName("JustinaiteOore").setHardness(0.8F);
-		DimRoseOre = new BlockDimRoseOre(config.OreBrightRoseID, Material.rock).setUnlocalizedName("DimroseOre").setHardness(0.8F);
+		DimRoseOre = new BlockDimRoseOre(config.OreDimRoseID, Material.rock).setUnlocalizedName("DimroseOre").setHardness(0.8F);
 		BrightRoseOre = new BlockBrightRoseOre(config.OreBrightRoseID, Material.rock).setUnlocalizedName("BrightRoseOre").setHardness(0.8F);
 		WaterBleachedOre = new BlockWaterBleachedOre(config.OreWaterBleachedID, Material.rock).setUnlocalizedName("WaterBleachedOre").setHardness(0.8F);
 		
