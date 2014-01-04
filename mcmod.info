@@ -1,0 +1,17 @@
+[
+{
+  "modid": "joshua_joshcraft",
+  "name": "Joshcraft",
+  "description": "This mod in a collection of ideas suggested by my stream. we have spent a long time working on this together, so please enjoy",
+  "version": "0.0.1",
+  "mcversion": "1.6.4",
+  "logoFile": "",
+  "url": "http://www.twitch.tv/2011josh",
+  "updateUrl": "",
+  "authors": ["2011josh"],
+  "credits": "My Stream for the support, also coolAlias from MincraftForums for help with a small mess-up i made",
+  "parent": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
