@@ -83,36 +83,33 @@ public class config {
 		BlockEntityCableID = config.get("Blocks", "BlockEntityCableID", 1564).getInt();
 		
 		//items
-		ItemJustinaiteGemID = config.get("Items", "ItemJustinaiteGemID",16001).getInt();
-		ItemDimRoseGemID = config.get("Items", "ItemDimRoseGemID", 16007).getInt();	
-		ItemBrightRoseGemID = config.get("Items", "ItemBrightRoseGemID", 16013).getInt();
-		ItemWaterBleachedIngotID = config.get("Items", "ItemWaterBleachedIngotID", 16019).getInt();
+		ItemBrightRoseGemID = config.get("Items", "ItemBrightRoseGemID", 16001).getInt();
+		ItemBrightRosePickID = config.get("Items", "ItemBrightRosePickID", 16002).getInt();
+		ItemBrightRoseAxeID = config.get("Items", "ItemBrightRoseAxeID", 16003).getInt();
+		ItemBrightRoseHoeID = config.get("Items", "ItemBrightRoseHoeID", 16004).getInt();
+		ItemBrightRoseShovelID = config.get("Items", "ItemBrightRoseShovelID", 16005).getInt();
+		ItemBrightRoseSwordID = config.get("Items", "ItemBrightRoseSwordID", 16005).getInt();
 		
-		ItemJustinaitePickID = config.get("Items", "ItemJustinaitePickID",16002).getInt();
-		ItemDimRosePickID = config.get("Items", "ItemDimRosePickID", 16008).getInt();	
-		ItemBrightRosePickID = config.get("Items", "ItemBrightRosePickID", 16014).getInt();
-		ItemWaterBleachedPickID = config.get("Items", "ItemWaterBleachedPickID", 16020).getInt();
+		ItemDimRoseGemID = config.get("Items", "ItemDimRoseGemID", 16006).getInt();
+		ItemDimRosePickID = config.get("Items", "ItemDimRosePick", 16007).getInt();
+		ItemDimRoseAxeID = config.get("Items", "ItemDimRoseAxeID", 16008).getInt();
+		ItemDimRoseHoeID = config.get("Items", "ItemDimRoseHoeID" , 16009).getInt();
+		ItemDimRoseShovelID = config.get("Items", "ItemDimRoseShovelID", 16010).getInt();
+		ItemDimRoseSwordID = config.get("Items", "ItemDimRoseSword", 16011).getInt();
 		
-		ItemJustinaiteAxeID = config.get("Items", "ItemJustinaiteAxeID",16003).getInt();
-		ItemDimRoseHoeID = config.get("Items", "ItemDimRoseHoeID", 16009).getInt();	
-		ItemBrightRoseHoeID = config.get("Items", "ItemBrightRoseHoeID", 16015).getInt();	
-		ItemWaterBleachedAxeID = config.get("Items", "ItemWaterBleachedAxeID", 16021).getInt();
+		ItemJustinaiteGemID = config.get("Items", "ItemJustinaiteGenID", 16012).getInt();
+		ItemJustinaitePickID = config.get("Items", "ItemJustinaitePickID", 16013).getInt();
+		ItemJustinaiteAxeID = config.get("Items", "ItemJustinaiteAxeID", 16014).getInt();
+		ItemJustinaiteHoeID = config.get("Items", "ItemJustinaiteHoeID", 16015).getInt();
+		ItemJustinaiteShovelID = config.get("Items", "ItemJustinaiteShovelID", 16016).getInt();
+		ItemJustinaiteSwordID = config.get("Items", "ItemJustinaiteSwordID", 16017).getInt();
 		
-		ItemJustinaiteHoeID = config.get("Items", "ItemJustinaiteHoeID",16004).getInt();
-		ItemDimRoseHoeID = config.get("Items", "ItemDimRoseHoeID", 16010).getInt();	
-		ItemBrightRoseHoeID = config.get("Items", "ItemBrightRoseHoeID", 16016).getInt();
-		ItemWaterBleachedHoeID = config.get("Items", "ItemWaterBleachedHoeID", 16022).getInt();
-		
-		ItemJustinaiteShovelID = config.get("Items", "ItemJustinaiteShovelID",16005).getInt();
-		ItemDimRoseShovelID = config.get("Items", "ItemDimRoseShovelID", 16011).getInt();	
-		ItemBrightRoseShovelID = config.get("Items", "ItemBrightRoseShovelID", 16017).getInt();
-		ItemWaterBleachedShovelID = config.get("Items", "ItemWaterBleachedShovelID", 16023).getInt();
-		
-		ItemJustinaiteSwordID = config.get("Items", "ItemJustinaiteSwordID",16006).getInt();
-		ItemDimRoseSwordID = config.get("Items", "ItemDimRoseSwordID", 16012).getInt();	
-		ItemBrightRoseSwordID = config.get("Items", "ItemBrightRoseSwordID", 16018).getInt();
-		ItemWaterBleachedSwordID = config.get("Items", "ItemWaterBleachedSwordID", 16024).getInt();
-		
+		ItemWaterBleachedIngotID = config.get("Items", "ItemWaterBleachedIngotID", 16018).getInt();
+		ItemWaterBleachedPickID = config.get("Items", "ItemWaterBleachedPickID", 16019).getInt();
+		ItemWaterBleachedAxeID = config.get("Items", "ItemWaterBleachedAxeID", 16020).getInt();
+		ItemWaterBleachedHoeID = config.get("Items", "ItemWaterBleachedHoeID", 16021).getInt();
+		ItemWaterBleachedShovelID = config.get("Items", "ItemWaterBleachedShovelID", 16022).getInt();
+		ItemWaterBleachedSwordID = config.get("Items", "ItemWaterBleachedSwordID", 16023).getInt();
 		
 
 		

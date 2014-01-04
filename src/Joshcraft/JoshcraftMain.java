@@ -12,20 +12,26 @@ import Joshcraft.res.SetCreativeTabs;
 import Joshcraft.worldGen.WorldGenHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.Mod.Instance;
+import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.network.NetworkMod;
-import cpw.mods.fml.common.registry.LanguageRegistry;
 
 @Mod(modid = ModInfo.ID, name = ModInfo.name, version = ModInfo.version)
-@NetworkMod(clientSideRequired = true, serverSideRequired = false)
+@NetworkMod(channels = {ModInfo.ID},clientSideRequired = true, serverSideRequired = false, packetHandler = Joshcraft.network.packetHandler.class)
 
 public class JoshcraftMain{
        
 	public static CreativeTabs tabsJoshCraftBlock = new CreativeTabJoshCraft(CreativeTabs.getNextID(), "tabBlocks");
 	public static CreativeTabs tabsJoshCraftItems = new CreativeTabJoshCraftItems(CreativeTabs.getNextID(), "tabItems");
 	
+	@Instance(ModInfo.ID)
+	public static JoshcraftMain instance;
+	
+	@SidedProxy(clientSide = "example.proxies.ClientProxy", serverSide = "examples.proxies.CommonProxy")
+	public static Joshcraft.proxies.CommonProxy proxy;
 	
 	@EventHandler
 	public void preload(FMLPreInitializationEvent event){
