@@ -30,11 +30,7 @@ public class BlockHandler {
 	public static Block BrightRoseSmallBrick;
 	public static Block WaterBleachedSmallBrick;
 	
-	
-
-	
-	
-	public static void init(){
+	public static void init() {
 		
 		JustinaiteOre = new BlockJustinaiteOre(config.OreJustinaiteID).setUnlocalizedName("JustinaiteOore").setHardness(0.8F);
 		DimRoseOre = new BlockDimRoseOre(config.OreDimRoseID, Material.rock).setUnlocalizedName("DimroseOre").setHardness(0.8F);
@@ -65,24 +61,19 @@ public class BlockHandler {
 		GameRegistry.registerBlock(BrightRoseSmallBrick, ModInfo.ID + BrightRoseSmallBrick.getUnlocalizedName().substring(5));
 		GameRegistry.registerBlock(WaterBleachedSmallBrick, ModInfo.ID + WaterBleachedSmallBrick.getUnlocalizedName().substring(5));
         
-        LanguageRegistry.addName(JustinaiteOre, "Justinaite Ore");
-        LanguageRegistry.addName(DimRoseOre, "Dim Rose Ore");
-        LanguageRegistry.addName(BrightRoseOre, "Bright Rose Ore");
-        LanguageRegistry.addName(WaterBleachedOre, "Water Bleached Ore");
-        LanguageRegistry.addName(JustinaiteBrick, "Justinaite Brick");
-        LanguageRegistry.addName(DimRoseBrick, "Dim Rose Brick");
-        LanguageRegistry.addName(BrightRoseBrick, "Bright Rose Brick");
-        LanguageRegistry.addName(WaterBleachedBrick, "Water Bleached Brick");
-        LanguageRegistry.addName(JustinaiteSmallBrick, "Justinaite Small Brick");
+        	LanguageRegistry.addName(JustinaiteOre, "Justinaite Ore");
+  		LanguageRegistry.addName(DimRoseOre, "Dim Rose Ore");
+        	LanguageRegistry.addName(BrightRoseOre, "Bright Rose Ore");
+        	LanguageRegistry.addName(WaterBleachedOre, "Water Bleached Ore");
+        	LanguageRegistry.addName(JustinaiteBrick, "Justinaite Brick");
+        	LanguageRegistry.addName(DimRoseBrick, "Dim Rose Brick");
+        	LanguageRegistry.addName(BrightRoseBrick, "Bright Rose Brick");
+        	LanguageRegistry.addName(WaterBleachedBrick, "Water Bleached Brick");
+        	LanguageRegistry.addName(JustinaiteSmallBrick, "Justinaite Small Brick");
 		LanguageRegistry.addName(DimRoseSmallBrick, "Dim Rose Small Brick");
 		LanguageRegistry.addName(BrightRoseSmallBrick, "Bright Rose Small Brick");
 		LanguageRegistry.addName(WaterBleachedSmallBrick, "Water Bleached Small Brick");
 		
-
-
-		
 	}
-	
-	
 	
 }
